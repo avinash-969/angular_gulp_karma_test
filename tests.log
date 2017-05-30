@@ -1,0 +1,11 @@
+[22:32:59] Using gulpfile D:\Learning\My-Learning\angular-karma-test\gulpfile.js
+[22:32:59] Starting 'test'...
+[32m30 05 2017 22:32:59.866:INFO [karma]: [39mKarma v1.7.0 server started at http://0.0.0.0:9876/
+[32m30 05 2017 22:32:59.866:INFO [launcher]: [39mLaunching browser PhantomJS with unlimited concurrency
+[32m30 05 2017 22:32:59.882:INFO [launcher]: [39mStarting browser PhantomJS
+[32m30 05 2017 22:33:03.231:INFO [PhantomJS 2.1.1 (Windows 8 0.0.0)]: [39mConnected on socket VsWiwRcqCcosLF15AAAA with id 71693208
+PhantomJS 2.1.1 (Windows 8 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Windows 8 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.055 secs)
+[1A[2KPhantomJS 2.1.1 (Windows 8 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.061 secs)
+[1A[2KPhantomJS 2.1.1 (Windows 8 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.061 secs)
+[22:33:03] Finished 'test' after 3.84 s

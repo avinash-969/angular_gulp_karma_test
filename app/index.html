@@ -1,0 +1,31 @@
+<!doctype html>
+<html >
+  <head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="testingAngularApp" ng-controller="testingAngularCtrl">
+  <header>
+    <h1>  {{title}} </h1>
+  </header>
+
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1"></div>
+      <div class="col-md-4">
+
+         <label for="City">City</label>
+         <input type="text" class="form-control" id="cityName" placeholder="City Name" ng-model="newDestination.city">
+         <label for="Country">Country</label>
+         <input type="text" class="form-control" id="countryName" placeholder="Country Name" ng-model="newDestination.country">
+         <button type="submit" class="btn btn-primary" ng-click="addDestination()">Submit</button>
+    </div>
+
+  <section>
+    <h2>Your Trip</h2>
+    <div ng-repeat="destination in destinations">
+      <span>{{destination.city}}, {{destination.country}}</span>
+    </div>
+  </section>
+  </body>
+</html>
