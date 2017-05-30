@@ -15,3 +15,6 @@ To run application
 1. npm install http-server
 2. htt-server
 3. open localhost:8080/app in browser
+
+To send test cases results to log file
+ gulp test > tests.log
